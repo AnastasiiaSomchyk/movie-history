@@ -6,8 +6,8 @@ const apiKeys = () => {
       .done((data) => {
         resolve(data.apiKeys);
       })
-      .fail((error) => {
-        reject(error);
+      .fail((err) => {
+        reject(err);
       });
   });
 };
@@ -17,8 +17,8 @@ const retrieveKeys = () => {
     .then((results) => {
       tmdb.setKey(results.tmdb.apiKey);
     })
-    .catch((error) => {
-      console.log('on keys', error);
+    .catch((err) => {
+      console.error('on keys', err);
     });
 };
 
