@@ -1,0 +1,36 @@
+body{
+  background-color: #faf0ea;
+}
+
+.fish-img{
+  position: absolute;
+  left: 40%;
+}
+.navbar-default{
+  background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+  box-shadow:none;
+  min-height: 130px;
+  margin-bottom: 60px;
+}
+
+.navbar-brand{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 45px;
+}
+.navbar-right{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 20px;
+}
+
+main{
+  font-family: 'Cabin Sketch', cursive;
+}
+
+input{
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
