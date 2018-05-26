@@ -1,31 +1,41 @@
 body{
-  background-color: #faf0ea;
+  background-color:#f9f0ea;
 }
 
 .fish-img{
   position: absolute;
   left: 40%;
 }
+
+img {
+  width: 350px;
+}
 .navbar-default{
   background-color:transparent !important;
 	border-color:transparent;
 	background-image:none;
   box-shadow:none;
-  min-height: 130px;
+  min-height: 200px;
   margin-bottom: 60px;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Cabin Sketch', cursive;
-  font-size: 45px;
+  font-size: 60px;
+  padding: 40px;
 }
+
 .navbar-right{
   font-family: 'Cabin Sketch', cursive;
   font-size: 20px;
+  padding: 40px;
 }
 
 main{
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 input{
@@ -34,3 +44,24 @@ input{
   margin-right: auto;
   margin-left: auto;
 }
+
+/* Cards */
+.thumbnail{
+background-color: #e2e2e2;
+margin: 30px;
+padding: 15px;
+}
+
+.caption{
+  height: 500px;
+}
+
+.btn-red{
+  /* direction: none; */
+  background-color:#ff584c;
+}
+
+.glyphicon-search{
+  color:#ff584c;
+}
+
