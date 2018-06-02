@@ -58,7 +58,7 @@ const getAllMovieEvent = () => {
   firebaseApi.getAllMovies()
     .then((moviesArray) => {
       moviesArray.forEach((movie) => {
-        dom.domString(moviesArray, tmdb.getImageConfig(), 'savedMovies');
+        dom.domString(moviesArray, tmdb.getImageConfig(), 'savedMovies', true);
       });
     })
     .catch((error) => {
