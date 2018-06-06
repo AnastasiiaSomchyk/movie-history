@@ -154,6 +154,8 @@ const authEvent = () => {
         // call the getMoviesEvent
       })
       .catch((error) => {
+        $('#signInErrorMsg').text(error.message);
+        $('#signInError').removeClass('hide');
         const errorMessage = error.message;
         console.error(errorMessage);
         // ...
